@@ -19,7 +19,7 @@ public class SimpleTest {
     {
         Assert.assertEquals(1, 1);
     }
-
+/*
        @Test
      public void alwaysFail1()
      {
@@ -49,4 +49,5 @@ public class SimpleTest {
         boolean smallerThanFifee =  randomNumber < 50 ? true : false;
         Assert.assertEquals(smallerThanFifee, true);
     }
+    */
 }
