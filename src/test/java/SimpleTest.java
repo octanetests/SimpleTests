@@ -23,6 +23,7 @@ public class SimpleTest {
      @Test
      public void alwaysFail1()
      {
+       //user story2
          Assert.assertEquals(1, 1);
      }
 
