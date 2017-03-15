@@ -36,6 +36,7 @@ public class SimpleTest {
      @Test
     public void sometimesPass1()
     {
+      //make change defect 2
         Random random = new Random();
         int randomNumber = random.nextInt(100);
         boolean smallerThanFifee =  randomNumber < 50 ? true : false;
