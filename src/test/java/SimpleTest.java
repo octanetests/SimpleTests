@@ -9,7 +9,7 @@ import java.util.Random;
  */
 public class SimpleTest {
 
-   //@Test
+   @Test
    public void alwaysPass1()
    {
        Assert.assertEquals(1, 1);
@@ -28,7 +28,7 @@ public class SimpleTest {
          Assert.assertEquals(1, 1);
      }
 
-    //@Test
+    @Test
     public void alwaysFail2()
     {
       //user story 1- 1
